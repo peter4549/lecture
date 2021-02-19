@@ -9,13 +9,13 @@ https://medium.com/til-kotlin-ko/kotlin%EC%9D%98-extension%EC%9D%80-%EC%96%B4%EB
 
 # Note
 ## Extension은 정적으로 처리된다.
-'''
+```
 fun String.extension() : String {
     return "$this extension."
 }
-'''
+```
 위 코드를 디컴파일한 코드는 다음과 같다.
-'''
+```
 public final class ExtensionsKt {
    @NotNull
    public static final String extension(@NotNull String $receiver) {
@@ -23,4 +23,4 @@ public final class ExtensionsKt {
       return $receiver + " extension.";
    }
 }
-'''
+```
