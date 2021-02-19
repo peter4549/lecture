@@ -24,3 +24,4 @@ public final class ExtensionsKt {
    }
 }
 ```
+확장 대상(Receiver)인 `String`을 인자로 받는 `static final`로 메소드가 생성된다. 이는 클래스 자체가 확장된 것이 아니라, 정적인 메소드 형태로 코드가 생성되었으므로, 객체 멤버 접근에 제한이 존재할 수 있다는 뜻으로 해석할 수 있다. 이 특성은 [Extension are resolved statically]( https://kotlinlang.org/docs/extensions.html#extensions-are-resolved-statically "Extension are resolved statically")
