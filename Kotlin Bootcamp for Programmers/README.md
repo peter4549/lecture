@@ -6,3 +6,6 @@ https://velog.io/@conatuseus/Kotlin-%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%A0%95%EB%A6%
 
 # High-order functions and lambdas
 https://kotlinlang.org/docs/lambdas.html
+
+# What is a “receiver” in Kotlin?
+https://stackoverflow.com/questions/45875491/what-is-a-receiver-in-kotlin
